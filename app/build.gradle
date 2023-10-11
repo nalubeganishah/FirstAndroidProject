@@ -52,9 +52,11 @@ dependencies {
     //implement gson itself, it converts java objects into gson and back
     implementation 'com.google.code.gson:gson:2.10.1'
     //implement OkHttpClient interceptor
-    implementation'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
     // implement image processing tool ie picasso
     implementation 'com.squareup.picasso:picasso:2.8'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.4'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.4'
 }
 
 
